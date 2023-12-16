@@ -1,0 +1,29 @@
+h1,
+h3 {
+  text-shadow: 2px 1px 2px grey;
+}
+.card h2 {
+  text-shadow: 2px 1px 2px grey;
+}
+
+.buttons:hover {
+  background-color: #21943b !important;
+  color: white !important;
+}
+.buttons:hover i {
+  color: #21943b !important;
+  background-color: white !important;
+}
+
+.doctors img {
+  border: 3px solid #21943b;
+}
+.doctors button:hover {
+  background-color: #21943b !important;
+}
+.doctors button:hover i {
+  color: white !important;
+}
+.review img {
+  border-radius: 50%;
+}

@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HOSPITAL</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="top-0 start-0 position-sticky z-3">
+      <nav class="navbar navbar-expand-md bg-white shadow text-center">
+        <div class="container">
+          <button
+            class="navbar-toggler"
+            data-bs-toggle="collapse"
+            data-bs-target="#navmenu"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="d-flex align-items-center">
+            <i class="bi bi-heart-pulse-fill text-success fs-4 mx-1"></i>
+            <a href="#" class="navbar-brand">
+              <h3>Med<span class="text-success">Care</span></h3>
+            </a>
+          </div>
+
+          <div
+            class="collapse navbar-collapse justify-content-around"
+            id="navmenu"
+          >
+            <ul class="navbar-nav nav-underline">
+              <li class="nav-item mx-2">
+                <a class="nav-link text-success" href="#home">Home</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link text-success" href="#services">Services</a>
+              </li>
+
+              <li class="nav-item mx-2">
+                <a class="nav-link text-success" href="#about">About</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link text-success" href="#doctors">Doctors</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link text-success" href="#booking">Book</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link text-success" href="#review">Review</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link text-success" href="#blogs">Blogs</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="landing bg-light" id="home">
+        <div
+          class="container d-lg-flex justify-content-center align-items-center"
+          style="height: 100vh"
+        >
+          <div class="landing-image w-100">
+            <img
+              src="./assets/images/doctor.png"
+              class="w-lg-75 img-fluid float-end"
+            />
+          </div>
+          <div class="landing-text">
+            <h1>Stay Safe , Stay Healthy</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+              vitae minima doloremque unde maiores! Ullam, aspernatur. Neque
+              magni quod magnam?
+            </p>
+            <button
+              style="padding: 4px 8px"
+              class="buttons d-flex align-items-center btn btn-white border-3 border-success shadow text-success"
+            >
+              Contact Now
+              <i
+                class="bi bi-chevron-right text-bg-success mx-1 rounded-1"
+                style="padding: 1px 6px"
+              ></i>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="container text-center">
+        <div class="row gy-3 mt-5">
+          <div class="col-lg-3">
+            <div class="card border-2 border-success shadow">
+              <div class="card-body">
+                <i class="fa fa-user-md fs-1 text-success"></i>
+
+                <h2 class="my-2">120+</h2>
+                <p>Doctors At Work</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="card border-2 border-success shadow">
+              <div class="card-body">
+                <i
+                  class="bi bi-people-fill text-success"
+                  style="font-size: 26.5px"
+                ></i>
+                <h2 class="my-2">1040+</h2>
+                <p>Happy Patients</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="card border-2 border-success shadow">
+              <div class="card-body">
+                <i class="fa fa-bed fs-1 text-success"></i>
+
+                <h2 class="my-2">500+</h2>
+                <p>Bed Facility</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="card border-2 border-success shadow">
+              <div class="card-body">
+                <i class="fa fa-hospital-o fs-1 text-success"></i>
+                <h2 class="my-2">80+</h2>
+                <p>Hospital Avaliable</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="services bg-light my-5" id="services">
+        <div class="container">
+          <h1 class="text-success pt-5 text-center">
+            <span class="text-dark">OUR</span> SERVICES
+          </h1>
+          <div class="row py-5 gy-3">
+            <div class="col-lg-4">
+              <div class="card border-2 border-success shadow">
+                <div class="card-body">
+                  <i class="fa fa-stethoscope fs-1 text-success"></i>
+
+                  <h2 class="my-2">Free Checkup</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Recusandae, similique?
+                  </p>
+                  <p id="para1"></p>
+                  <button
+                    style="padding: 4px 10px"
+                    class="buttons d-flex align-items-center btn btn-white border-3 border-success shadow text-success"
+                  >
+                    Learn More
+                    <i
+                      class="bi bi-chevron-right ms-1 text-bg-success rounded-1"
+                      style="padding: 1px 6px"
+                    ></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card border-2 border-success shadow">
+                <div class="card-body">
+                  <i
+                    class="fa fa-ambulance fs-1 text-success"
+                    style="font-size: 26.5px"
+                  ></i>
+                  <h2 class="my-2">24/7 Ambulance</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Consectetur, rerum.
+                  </p>
+                  <p class="para2"></p>
+                  <button
+                    style="padding: 4px 10px"
+                    class="buttons d-flex align-items-center btn btn-white border-3 border-success shadow text-success"
+                  >
+                    Learn More
+                    <i
+                      class="bi bi-chevron-right ms-1 text-bg-success rounded-1"
+                      style="padding: 1px 6px"
+                    ></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card border-2 border-success shadow">
+                <div class="card-body">
+                  <i class="fa fa-user-md fs-1 text-success"></i>
+
+                  <h2 class="my-2">Experts Consultancy</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Consectetur, rerum.
+                  </p>
+                  <p class="para3"></p>
+                  <button
+                    style="padding: 4px 10px"
+                    class="buttons d-flex align-items-center btn btn-white border-3 border-success shadow text-success"
+                  >
+                    Learn More
+                    <i
+                      class="bi bi-chevron-right ms-1 text-bg-success rounded-1"
+                      style="padding: 1px 6px"
+                    ></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="card border-2 border-success shadow">
+                <div class="card-body">
+                  <i
+                    class="bi bi-capsule-pill text-success"
+                    style="font-size: 26.5px"
+                  ></i>
+
+                  <h2 class="my-2">Medicines</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Recusandae, similique?
+                  </p>
+                  <p class="para4"></p>
+                  <button
+                    style="padding: 4px 10px"
+                    class="buttons d-flex align-items-center btn btn-white border-3 border-success shadow text-success"
+                  >
+                    Learn More
+                    <i
+                      class="bi bi-chevron-right ms-1 text-bg-success rounded-1"
+                      style="padding: 1px 6px"
+                    ></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card border-2 border-success shadow">
+                <div class="card-body">
+                  <i class="fa fa-bed text-success" style="font-size: 40px"></i>
+                  <h2 class="my-2">Bed Facility</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Consectetur, rerum.
+                  </p>
+                  <p class="para5"></p>
+                  <button
+                    style="padding: 4px 10px"
+                    class="buttons d-flex align-items-center btn btn-white border-3 border-success shadow text-success"
+                  >
+                    Learn More
+                    <i
+                      class="bi bi-chevron-right ms-1 text-bg-success rounded-1"
+                      style="padding: 1px 6px"
+                    ></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card border-2 border-success shadow">
+                <div class="card-body">
+                  <i
+                    class="bi bi-heart-pulse-fill text-success"
+                    style="font-size: 26.5px"
+                  ></i>
+
+                  <h2 class="my-2">Total Care</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Consectetur, rerum.
+                  </p>
+                  <p class="para6"></p>
+                  <button
+                    style="padding: 4px 10px"
+                    class="buttons d-flex align-items-center btn btn-white border-3 border-success shadow text-success"
+                  >
+                    Learn More
+                    <i
+                      class="bi bi-chevron-right ms-1 text-bg-success rounded-1"
+                      style="padding: 1px 6px"
+                    ></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="about pt-5" id="about">
+        <h1 class="text-success text-center">
+          ABOUT <span class="text-dark">US</span>
+        </h1>
+        <div
+          class="d-lg-flex justify-content-center align-items-center container"
+        >
+          <div class="image1 w-100">
+            <img src="./assets/images/image-2.png" class="w-100 img-fluid" />
+          </div>
+          <div class="about-text text-start my-2">
+            <h1>
+              We Take Care Of Your <br />
+              Healthy Life
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Distinctio suscipit at et tempora tenetur repellendus! Nam non
+              quibusdam tempore sit sapiente quasi vero deleniti alias incidunt
+              eum, placeat dicta sint similique veniam quo odit accusamus saepe
+              veritatis distinctio est dignissimos in? Ullam atque ut maiores
+              repudiandae eveniet distinctio molestiae omnis!
+            </p>
+            <p class="para7"></p>
+            <button
+              style="padding: 4px 10px"
+              class="buttons d-flex align-items-center btn btn-white border-3 border-success shadow text-success my-2"
+            >
+              Learn More
+              <i
+                class="bi bi-chevron-right ms-1 text-bg-success rounded-1"
+                style="padding: 1px 6px"
+              ></i>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="bg-light doctors" id="doctors">
+        <h1 class="text-center py-5">
+          OUR <span class="text-success">DOCTORS</span>
+        </h1>
+        <div class="container">
+          <div class="row text-center gy-3">
+            <div class="col-lg-4">
+              <div class="card border-3 shadow border-success">
+                <div class="card-body">
+                  <div class="card-img my-2 w-50 d-block mx-auto">
+                    <img
+                      src="./assets/images/doctor-1.jpg"
+                      class="img-fluid w-100 rounded"
+                    />
+                  </div>
+                  <h4>Mary Philip</h4>
+                  <p>Expert Doctor</p>
+                  <button class="btn border-3 border-success mx-2">
+                    <i class="bi bi-facebook fs-3 text-success"></i>
+                  </button>
+                  <button class="btn border-3 border-success mx-2">
+                    <i class="bi bi-instagram fs-3 text-success"></i>
+                  </button>
+                  <button class="btn border-3 border-success mx-2">
+                    <i class="bi bi-linkedin fs-3 text-success"></i>
+                  </button>
+                  <button class="btn border-3 border-success mx-2">
+                    <i class="bi bi-twitter fs-3 text-success"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card border-3 shadow border-success">
+                <div class="card-body">
+                  <div class="card-img my-2 w-50 d-block mx-auto">
+                    <img
+                      src="./assets/images/doctor-2.jpg"
+                      class="img-fluid w-100 rounded"
+                    />
+                  </div>
+                  <h4>Anna George</h4>
+                  <p>Expert Doctor</p>
+                  <button class="btn border-3 border-success mx-2">
+                    <i class="bi bi-facebook fs-3 text-success"></i>
+                  </button>
+                  <button class="btn border-3 border-success mx-2">
+                    <i class="bi bi-instagram fs-3 text-success"></i>
+                  </button>
+                  <button class="btn border-3 border-success mx-2">
+                    <i class="bi bi-linkedin fs-3 text-success"></i>
+                  </button>
+                  <button class="btn border-3 border-success mx-2">
+                    <i class="bi bi-twitter fs-3 text-success"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card border-3 shadow border-success">
+                <div class="card-body">
+                  <div class="card-img my-2 w-50 d-block mx-auto">
+                    <img
+                      src="./assets/images/doctor-3.jpg"
+                      class="img-fluid w-100 rounded"
+                    />
+                  </div>
+                  <h4>Mary James</h4>
+                  <p>Expert Doctor</p>
+                  <button class="btn border-3 border-success mx-2">
+                    <i class="bi bi-facebook fs-3 text-success"></i>
+                  </button>
+                  <button class="btn border-3 border-success mx-2">
+                    <i class="bi bi-instagram fs-3 text-success"></i>
+                  </button>
+                  <button class="btn border-3 border-success mx-2">
+                    <i class="bi bi-linkedin fs-3 text-success"></i>
+                  </button>
+                  <button class="btn border-3 border-success mx-2">
+                    <i class="bi bi-twitter fs-3 text-success"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="card border-3 shadow border-success">
+                <div class="card-body">
+                  <div class="card-img my-2 w-50 d-block mx-auto">
+                    <img
+                      src="./assets/images/doctor-4.jpg"
+                      class="img-fluid w-100 rounded"
+                    />
+                  </div>
+                  <h4>George Beller</h4>
+                  <p>Expert Doctor</p>
+                  <button class="btn border-3 border-success mx-2">
+                    <i class="bi bi-facebook fs-3 text-success"></i>
+                  </button>
+                  <button class="btn border-3 border-success mx-2">
+                    <i class="bi bi-instagram fs-3 text-success"></i>
+                  </button>
+                  <button class="btn border-3 border-success mx-2">
+                    <i class="bi bi-linkedin fs-3 text-success"></i>
+                  </button>
+                  <button class="btn border-3 border-success mx-2">
+                    <i class="bi bi-twitter fs-3 text-success"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card border-3 shadow border-success">
+                <div class="card-body">
+                  <div class="card-img my-2 w-50 d-block mx-auto">
+                    <img
+                      src="./assets/images/doctor-5.jpg"
+                      class="img-fluid w-100 rounded"
+                    />
+                  </div>
+                  <h4>Kathie Hullfish</h4>
+                  <p>Expert Doctor</p>
+                  <button class="btn border-3 border-success mx-2">
+                    <i class="bi bi-facebook fs-3 text-success"></i>
+                  </button>
+                  <button class="btn border-3 border-success mx-2">
+                    <i class="bi bi-instagram fs-3 text-success"></i>
+                  </button>
+                  <button class="btn border-3 border-success mx-2">
+                    <i class="bi bi-linkedin fs-3 text-success"></i>
+                  </button>
+                  <button class="btn border-3 border-success mx-2">
+                    <i class="bi bi-twitter fs-3 text-success"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card border-3 shadow border-success">
+                <div class="card-body">
+                  <div class="card-img my-2 w-50 d-block mx-auto">
+                    <img
+                      src="./assets/images/doctor-6.jpg"
+                      class="img-fluid w-100 rounded"
+                    />
+                  </div>
+                  <h4>Alexa Marco</h4>
+                  <p>Expert Doctor</p>
+                  <button class="btn border-3 border-success mx-2">
+                    <i class="bi bi-facebook fs-3 text-success"></i>
+                  </button>
+                  <button class="btn border-3 border-success mx-2">
+                    <i class="bi bi-instagram fs-3 text-success"></i>
+                  </button>
+                  <button class="btn border-3 border-success mx-2">
+                    <i class="bi bi-linkedin fs-3 text-success"></i>
+                  </button>
+                  <button class="btn border-3 border-success mx-2">
+                    <i class="bi bi-twitter fs-3 text-success"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="booking py-5" id="booking">
+        <h1 class="text-center"><span class="text-success">BOOK</span> NOW</h1>
+        <div
+          class="container d-lg-flex justify-content-center align-items-center mt-5"
+        >
+          <div class="w-100">
+            <img src="./assets/images/booking.png " class="img-fluid w-100" />
+          </div>
+
+          <div class="card w-100 border-3 border-success shadow">
+            <div class="card-body">
+              <h3 class="text-dark mb-4 text-center">Book Appoinment</h3>
+              <form action="#" method="get">
+                <input
+                  type="text"
+                  class="form-control border-3 border-success my-2"
+                  placeholder="Your Name"
+                  name="Name"
+                />
+                <input
+                  type="number"
+                  class="form-control border-3 border-success my-2"
+                  placeholder="Your Number"
+                  name="Number"
+                />
+                <input
+                  type="email"
+                  class="form-control border-3 border-success my-2"
+                  placeholder="Your Email"
+                  name="email"
+                />
+                <input
+                  type="date"
+                  class="form-control border-3 border-success my-2"
+                  placeholder="dd/mm/yy"
+                  name="dob"
+                />
+                <button
+                  class="buttons btn border-3 border-success d-block mx-auto shadow text-success px-5 my-3"
+                >
+                  Book Now
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="review bg-light py-5" id="review">
+        <h1 class="text-center">
+          CLIENT'S <span class="text-success">REVIEW</span>
+        </h1>
+        <div class="container my-5">
+          <div class="row gy-3">
+            <div class="col-lg-4">
+              <div class="card text-center border-3 border-success">
+                <div
+                  class="card-header bg-success text-white"
+                  style="
+                    border-bottom-left-radius: 50%;
+                    border-bottom-right-radius: 50%;
+                  "
+                >
+                  <div class="card-img mt-4 mb-3 w-50 d-block mx-auto shadow">
+                    <img
+                      src="./assets/images/clent-1.jpg"
+                      class="img-fluid w-100"
+                    />
+                  </div>
+                  <h5 class="my-2">John Doe</h5>
+                  <span> &#9733;</span>
+                  <span>&#9733;</span>
+                  <span>&#9733;</span>
+                  <span>&#9733;</span>
+                  <span>&#9733;</span>
+                </div>
+                <div class="card-body">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem,
+                  facere incidunt harum molestiae voluptates magnam corporis
+                  veniam illum ex deserunt sapiente laborum suscipit deleniti,
+                  autem beatae. Deleniti consequuntur nostrum exercitationem?
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card text-center border-3 border-success shadow">
+                <div
+                  class="card-header bg-success text-white"
+                  style="
+                    border-bottom-left-radius: 50%;
+                    border-bottom-right-radius: 50%;
+                  "
+                >
+                  <div class="card-img mt-4 mb-3 w-50 d-block mx-auto">
+                    <img
+                      src="./assets/images/clent-1.jpg"
+                      class="img-fluid w-100"
+                    />
+                  </div>
+                  <h5 class="my-2">John Doe</h5>
+                  <span>&#9733;</span>
+                  <span>&#9733;</span>
+                  <span>&#9733;</span>
+                  <span>&#9733;</span>
+                  <span>&#9733;</span>
+                </div>
+                <div class="card-body">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem,
+                  facere incidunt harum molestiae voluptates magnam corporis
+                  veniam illum ex deserunt sapiente laborum suscipit deleniti,
+                  autem beatae. Deleniti consequuntur nostrum exercitationem?
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card text-center border-3 border-success shadow">
+                <div
+                  class="card-header bg-success text-white"
+                  style="
+                    border-bottom-left-radius: 50%;
+                    border-bottom-right-radius: 50%;
+                  "
+                >
+                  <div class="card-img mt-4 mb-3 w-50 d-block mx-auto">
+                    <img
+                      src="./assets/images/clent-1.jpg "
+                      class="img-fluid w-100"
+                    />
+                  </div>
+                  <h5 class="my-2">John Doe</h5>
+                  <span>&#9733;</span>
+                  <span>&#9733;</span>
+                  <span>&#9733;</span>
+                  <span>&#9733;</span>
+                  <span>&#9733;</span>
+                </div>
+                <div class="card-body">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem,
+                  facere incidunt harum molestiae voluptates magnam corporis
+                  veniam illum ex deserunt sapiente laborum suscipit deleniti,
+                  autem beatae. Deleniti consequuntur nostrum exercitationem?
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="blog py-5" id="blogs">
+        <h1 class="text-center my-4">
+          OUR <span class="text-success">BLOGS</span>
+        </h1>
+        <div class="container">
+          <div class="row gy-3">
+            <div class="col-lg-4">
+              <div class="card shadow border-success border-3">
+                <div class="card-body">
+                  <div class="card-img">
+                    <img
+                      src="./assets/images/blog-1.jpg "
+                      class="img-fluid w-100 rounded-2"
+                    />
+                  </div>
+                  <div class="d-flex justify-content-between my-2">
+                    <i class="bi bi-calendar text-success"
+                      ><span class="mx-2">1st May 2021</span></i
+                    >
+                    <i class="bi bi-person-fill text-success"
+                      ><span class="mx-2">By Admin</span></i
+                    >
+                  </div>
+                  <h3 class="my-4">Vaccine Is Here</h3>
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Dicta voluptatum soluta hic recusandae necessitatibus
+                    reiciendis. Illo corrupti earum magni beatae?
+                  </p>
+                  <p class="para8"></p>
+                  <button
+                    style="padding: 4px 10px"
+                    class="buttons d-flex align-items-center btn btn-white border-3 border-success shadow text-success my-2"
+                  >
+                    Read More
+                    <i
+                      class="bi bi-chevron-right ms-1 text-bg-success rounded-1"
+                      style="padding: 1px 6px"
+                    ></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card shadow border-success border-3">
+                <div class="card-body">
+                  <div class="card-img">
+                    <img
+                      src="./assets/images/blog-2.jpg "
+                      class="img-fluid w-100 rounded-2"
+                    />
+                  </div>
+                  <div class="d-flex justify-content-between my-2">
+                    <i class="bi bi-calendar text-success"
+                      ><span class="mx-2">1st May 2021</span></i
+                    >
+                    <i class="bi bi-person-fill text-success"
+                      ><span class="mx-2">By Admin</span></i
+                    >
+                  </div>
+                  <h3 class="my-4">Operation Theatre Experience</h3>
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Dicta voluptatum soluta hic recusandae necessitatibus
+                    reiciendis. Illo corrupti earum magni beatae?
+                  </p>
+                  <p class="para9"></p>
+                  <button
+                    style="padding: 4px 10px"
+                    class="buttons d-flex align-items-center btn btn-white border-3 border-success shadow text-success my-2"
+                  >
+                    Read More
+                    <i
+                      class="bi bi-chevron-right ms-1 text-bg-success rounded-1"
+                      style="padding: 1px 6px"
+                    ></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="card shadow border-success border-3">
+                <div class="card-body">
+                  <div class="card-img">
+                    <img
+                      src="./assets/images/blog-3.jpg "
+                      class="img-fluid w-100 rounded-2"
+                    />
+                  </div>
+                  <div class="d-flex justify-content-between my-2">
+                    <i class="bi bi-calendar text-success"
+                      ><span class="mx-2">1st May 2021</span></i
+                    >
+                    <i class="bi bi-person-fill text-success"
+                      ><span class="mx-2">By Admin</span></i
+                    >
+                  </div>
+                  <h3 class="my-4">We Are With You</h3>
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Dicta voluptatum soluta hic recusandae necessitatibus
+                    reiciendis. Illo corrupti earum magni beatae?
+                  </p>
+                  <p class="para10"></p>
+                  <button
+                    style="padding: 4px 10px"
+                    class="buttons d-flex align-items-center btn btn-white border-3 border-success shadow text-success my-2"
+                  >
+                    Read More
+                    <i
+                      class="bi bi-chevron-right ms-1 text-bg-success rounded-1"
+                      style="padding: 1px 6px"
+                    ></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <section class="bg-light py-5">
+        <div class="container">
+          <div class="row gy-4">
+            <div class="col-lg-3">
+              <h3 class="text-dark text-center">Quick Links</h3>
+              <div class="d-grid justify-content-center">
+                <i class="bi bi-chevron-right text-success m-1 fs-5"
+                  ><a class="fs-6 text-dark text-decoration-none" href="#home"
+                    >Home</a
+                  ></i
+                >
+                <i class="bi bi-chevron-right text-success m-1 fs-5"
+                  ><a class="fs-6 text-dark text-decoration-none" href="#about"
+                    >About</a
+                  ></i
+                >
+                <i class="bi bi-chevron-right text-success m-1 fs-5"
+                  ><a
+                    class="fs-6 text-dark text-decoration-none"
+                    href="#services"
+                    >Services</a
+                  ></i
+                >
+                <i class="bi bi-chevron-right text-success m-1 fs-5"
+                  ><a
+                    class="fs-6 text-dark text-decoration-none"
+                    href="#doctors"
+                    >Doctors</a
+                  ></i
+                >
+                <i class="bi bi-chevron-right text-success m-1 fs-5"
+                  ><a
+                    class="fs-6 text-dark text-decoration-none"
+                    href="#booking"
+                    >Book</a
+                  ></i
+                >
+                <i class="bi bi-chevron-right text-success m-1 fs-5"
+                  ><a class="fs-6 text-dark text-decoration-none" href="#review"
+                    >Review</a
+                  ></i
+                >
+                <i class="bi bi-chevron-right text-success m-1 fs-5"
+                  ><a class="fs-6 text-dark text-decoration-none" href="#blogs"
+                    >Blogs</a
+                  ></i
+                >
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <h3 class="text-dark text-center">Our Services</h3>
+              <div class="d-grid justify-content-center">
+                <i class="bi bi-chevron-right text-success m-1 fs-5"
+                  ><a class="fs-6 text-dark text-decoration-none"
+                    >Dental Care</a
+                  ></i
+                >
+                <i class="bi bi-chevron-right text-success m-1 fs-5"
+                  ><a class="fs-6 text-dark text-decoration-none"
+                    >Message Therapy</a
+                  ></i
+                >
+                <i class="bi bi-chevron-right text-success m-1 fs-5"
+                  ><a class="fs-6 text-dark text-decoration-none"
+                    >Cardiology</a
+                  ></i
+                >
+                <i class="bi bi-chevron-right text-success m-1 fs-5"
+                  ><a class="fs-6 text-dark text-decoration-none"
+                    >Diagnosis</a
+                  ></i
+                >
+                <i class="bi bi-chevron-right text-success m-1 fs-5"
+                  ><a class="fs-6 text-dark text-decoration-none"
+                    >Ambulance Service</a
+                  ></i
+                >
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <h3 class="text-dark text-center">Contact Info</h3>
+              <div class="d-grid justify-content-center">
+                <i class="bi bi-telephone-fill text-success m-1 fs-5">
+                  <a class="fs-6 text-dark text-decoration-none mx-2">
+                    +91 9778326311</a
+                  ></i
+                >
+
+                <i class="bi bi-envelope text-success m-1 fs-5"
+                  ><a class="fs-6 text-dark text-decoration-none mx-2"
+                    >athirakolathery2002@gmail.com</a
+                  ></i
+                >
+
+                <i class="bi bi-geo-alt text-success m-1 fs-5"
+                  ><a class="fs-6 text-dark text-decoration-none mx-2"
+                    >Cherai PO 683514</a
+                  ></i
+                >
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <h3 class="text-dark text-center">Follow Us</h3>
+              <div class="d-grid justify-content-center">
+                <i class="bi bi-whatsapp text-success m-1 fs-5">
+                  <a class="fs-6 text-dark text-decoration-none mx-2">
+                    +91 8138958793</a
+                  ></i
+                >
+
+                <i class="bi bi-linkedin text-success m-1 fs-5"
+                  ><a class="fs-6 text-dark text-decoration-none mx-2"
+                    >LinkedIn</a
+                  ></i
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="w-75 mx-auto" />
+        <p class="text-center">
+          Created By <span class="text-success">ATHIRA K S</span> | All Rights
+          Reserved
+        </p>
+      </section>
+      <a href="#home"
+        ><i
+          class="bi bi-arrow-up-circle-fill text-success fs-2 position-fixed bottom-0 end-0"
+        ></i
+      ></a>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
